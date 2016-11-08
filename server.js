@@ -10,6 +10,8 @@ var momentTimezone = require('moment-timezone');
 var port = process.env.PORT || 3010;
 var app = express();
 
+global.db = require("./models");
+
 app.use(express.static( process.cwd() ));
 
 app.use(bodyParser.urlencoded({
