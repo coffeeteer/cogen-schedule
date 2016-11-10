@@ -6,11 +6,13 @@ var http           = require('http');
 var path           = require('path');
 var cookieParser   = require('cookie-parser');
 var momentTimezone = require('moment-timezone');
+var Pool           = require('pg').Pool;
+
 
 var port = process.env.PORT || 3010;
 var app = express();
 
-global.db = require("./models");
+//global.db = require("./models");
 
 app.use(express.static( process.cwd() ));
 

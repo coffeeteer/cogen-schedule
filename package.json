@@ -1,0 +1,29 @@
+{
+  "name": "cogen-schedule",
+  "version": "1.0.0",
+  "description": "\"schedule for cogen employees\"",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "moment-timezone": "^0.5.7",
+    "path": "^0.12.7",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeeteer/cogen-schedule.git"
+  },
+  "author": "coffeeteer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeeteer/cogen-schedule/issues"
+  },
+  "homepage": "https://github.com/coffeeteer/cogen-schedule#readme"
+}
