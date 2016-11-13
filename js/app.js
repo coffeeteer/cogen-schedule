@@ -1,1 +1,1 @@
-var app = angular.module('CogenCalendar', []);
+var app = angular.module('CogenCalendar', ['ui-calendar']);
